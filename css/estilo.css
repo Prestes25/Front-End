@@ -1,0 +1,30 @@
+/* Cor de fundo do site e fonte do Google */
+body { background-color: #ffe3e3;
+      font-family: 'Datatype';}
+
+  /* Tamanho da letra e fonte */
+   p::first-letter{font-size: 200%;}
+
+/* Cor dos títulos e cor e borda do botão */
+h1{color: #8b1616;}
+h2{color:#8b1616}
+h3{color: #8b1616;}
+p{color: #060655;}
+caption{color:#060655}
+button{background-color: #ffb1b1;
+       border: 2px solid #710000}
+
+ /* Segundo assunto do menu */
+#sim{color:#060655;}
+#for{color: #060655;}
+body{color: #710000;}
+
+/* Centralizar e sublinhar */
+h1,h2,h3,h4{text-align: center;
+       text-decoration: underline;
+  }
+
+/* Centralizando vídeo e fotos */
+#video{ text-align: center;}
+#imagem{text-align: center;}
+
