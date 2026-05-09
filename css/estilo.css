@@ -1,30 +1,57 @@
-/* Cor de fundo do site e fonte do Google */
-body { background-color: #ffe3e3;
-      font-family: 'Datatype';}
+body { 
+    background-color: #ffffff; /* cor de fundo branco */
+    font-family: 'Datatype'; /* fonte do google */
+    text-align: center; /* tudo centralizado */
+     }
 
-  /* Tamanho da letra e fonte */
-   p::first-letter{font-size: 200%;}
 
-/* Cor dos títulos e cor e borda do botão */
-h1{color: #8b1616;}
-h2{color:#8b1616}
-h3{color: #8b1616;}
-p{color: #060655;}
-caption{color:#060655}
-button{background-color: #ffb1b1;
-       border: 2px solid #710000}
 
- /* Segundo assunto do menu */
-#sim{color:#060655;}
-#for{color: #060655;}
-body{color: #710000;}
+header {
+    /* flexbox */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
-/* Centralizar e sublinhar */
-h1,h2,h3,h4{text-align: center;
-       text-decoration: underline;
-  }
+    gap: 15px; /* espaço entre a logo e o título do site*/
+    padding: 20px; /* tamanho do header */
+    background-color: #e8dfcb; /* cor do header */
+}
+header h1{ color: #5e2a27; /* cor do título */ }
 
-/* Centralizando vídeo e fotos */
-#video{ text-align: center;}
-#imagem{text-align: center;}
 
+
+nav { background-color: #e8dfcb; /* cor do nav */ }
+
+
+nav a {
+        color: #95534f; /* cor das palavras */
+        text-decoration: none; /* tira o underline */
+        margin: 10px; /* espaço entre um link e outro */
+}
+
+nav a:hover { color: #e47f37; /* cor ao passar com o mouse por cima */ }
+
+
+main a{ color: #b87d79; /* cor das palavras */ }
+main a:hover { color: #d4834a; /* cor ao passar com o mouse por cima */ }
+section{ padding: 15px; /* espaço entre uma sessão e outra */ }
+footer{font-size: 12px; /* tamanho da letra */ }
+
+#ref{font-size: 12px; /* tamanho da letra */ }
+
+h2{color: #5e2a27; /* cor da letra */ }
+p{padding-bottom: 15px; /* espaço entre um parágrafo e outro */ }
+
+
+#dois{
+            /* flexbox */
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            
+            align-items: center;
+            gap: 0.5vw;
+            justify-content: space-evenly;
+            align-content: flex-start;
+}
